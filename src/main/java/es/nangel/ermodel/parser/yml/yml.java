@@ -8,4 +8,7 @@ import java.lang.reflect.ParameterizedType;
  * Created by nangel on 22/10/15.
  */
 public class yml implements Parser {
+    public void parse(String file) {
+        System.out.println(file);
+    }
 }
